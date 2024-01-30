@@ -1,0 +1,54 @@
+body {
+  font-family: 'Courier New', Courier, monospace;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+nav{
+  font-family: 'Courier New', Courier, monospace;
+  border-bottom: 4px solid black;
+  width: 100%;
+}
+.zia li a:hover{                                                                                                                                                                                                       
+  color: rgb(121, 101, 75);
+ }
+
+.zia ul a{
+  list-style-type: none; 
+  text-decoration: none;
+ padding-top: 0; 
+ padding-bottom: 15px;
+ color: black;
+}
+.zia li {
+  margin-right: 80px; 
+  display: inline; 
+}
+.zia li:last-child {
+  margin-right: 0; 
+}
+
+
+header {
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 10px;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid black;
+}
+
+@media screen and (max-width: 800px){
+  .zia ul{
+      flex-direction: column;
+  }
+}
